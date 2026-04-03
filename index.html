@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>China</title>
+ <style>
+    .logo-flag {
+    height: 40px; /* tamanho da navbar */
+    width: auto; /* mantém proporção original */
+
+    object-fit: contain; /* garante que não corte a imagem */
+
+    border: 1.5px solid white; /*borda*/
+    border-radius: 6px; /*arredonda a borda da logo*/
+    padding: 2px; /* espaço interno pra não colar na borda */
+}
+
+.navbar-china {
+    background: linear-gradient(90deg, #c02e1b 0%, #dd0c0c 50%, #7c0f0f 100%);/* cor da navbar*/
+}
+
+
+/* botoes do nav */
+.navbar-china .nav-link {
+    color: #ffde00; /* amarelo da estrela */
+    font-weight: 500; /*espessura da fonte*/
+}
+
+/* botoes do nav passando por cima */
+.navbar-china .nav-link:hover {
+    color: #fff;
+}
+
+/* links */
+.navbar-china .nav-link.active {
+    color: #fff;
+    border-bottom: 2px solid #ffde00; /*linha embaixo dos links*/
+}
+
+/* borda do menu do nav */
+.navbar-china .navbar-toggler {
+    border-color: #a08716;
+}
+.footer{
+background: linear-gradient(90deg, #c02e1b 0%, #dd0c0c 50%, #7c0f0f 100%);
+}
+
+     
+    </style>
+</head>
+<body>
+
+ <nav class="navbar navbar-expand-lg navbar-dark navbar-china">
+    <div class="container">
+
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="img/logo.jpg" class="logo-flag" alt="Logo">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Início</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="comida.html">Culinária</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Cultura</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Explore</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre</a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<div class="container my-5 text-center">
+    <h1 class="fw-bold">Conheça a China</h1>
+    <p class="lead">
+        Uma das civilizações mais antigas do mundo, a China combina tradição milenar com inovação tecnológica, sendo hoje uma das maiores potências globais.
+    </p>
+</div>
+
+<div class="container my-5">
+    <div class="row align-items-center">
+        
+        <div class="col-md-6">
+            <img src="img/paisagem.jpg" class="img-fluid rounded shadow" alt="China">
+        </div>
+
+        <div class="col-md-6">
+            <h2>Sobre a China</h2>
+            <p>
+                A China está localizada no leste da Ásia e é o país mais populoso do mundo, com mais de 1,4 bilhão de habitantes.
+                Sua história ultrapassa 4 mil anos, marcada por dinastias, invenções e grandes transformações culturais.
+            </p>
+            <p>
+                O país é conhecido por suas contribuições importantes para a humanidade, como a invenção do papel, da pólvora,
+                da bússola e da impressão. Atualmente, a China desempenha um papel fundamental na economia mundial,
+                sendo referência em tecnologia, indústria e comércio.
+            </p>
+        </div>
+
+    </div>
+</div>
+
+<div class="container my-5">
+    <div class="row text-center">
+
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow">
+                <div class="card-body">
+                    <h5 class="card-title">🍜 Comidas</h5>
+                    <p class="card-text">
+                        A culinária chinesa é uma das mais variadas do mundo, com pratos famosos como yakisoba,
+                        arroz frito, dim sum e o tradicional pato de Pequim.
+                    </p>
+                    <a href="comida.html" class="btn btn-danger">Explorar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow">
+                <div class="card-body">
+                    <h5 class="card-title">🎎 Cultura</h5>
+                    <p class="card-text">
+                        A cultura chinesa é rica em tradições, incluindo festivais como o Ano Novo Chinês,
+                        artes marciais, caligrafia, filosofia e respeito aos ancestrais.
+                    </p>
+                    <a href="#" class="btn btn-danger">Explorar</a>
+                </div>
+            </div>
+        </div>
+<div class="col-md-4 mb-4">
+    <div class="card h-100 shadow">
+        <div class="card-body">
+            <h5 class="card-title">🌏 Explore a China</h5>
+            <p class="card-text">
+                Descubra paisagens incríveis, cidades modernas e tradições milenares.
+                Explore a cultura, a gastronomia e os pontos turísticos que fazem da China
+                um dos destinos mais fascinantes do mundo.
+            </p>
+            <a href="#" class="btn btn-danger">Explorar</a>
+        </div>
+    </div>
+</div>
+
+
+    </div>
+</div>
+
+<div class="container my-5">
+    <div class="bg-light p-4 rounded shadow">
+        <h2>China Moderna</h2>
+        <p>
+            Atualmente, a China é uma das maiores economias do mundo, destacando-se em áreas como inteligência artificial,
+            comércio eletrônico e infraestrutura urbana.
+        </p>
+        <p>
+            Cidades como Pequim, Xangai e Shenzhen são exemplos de modernidade, com arranha-céus,
+            transporte avançado e centros tecnológicos que influenciam o mundo todo.
+        </p>
+    </div>
+</div>
+
+<div class="container my-5 text-center">
+    <div class="alert alert-warning">
+        <h4 class="alert-heading">Você sabia? 🤔</h4>
+        <p>
+            A Grande Muralha da China tem mais de 21 mil quilômetros de extensão e é considerada
+            uma das maiores construções da história da humanidade!
+        </p>
+        <hr>
+        <p class="mb-0">
+            Além disso, a China também é o berço do panda gigante, um dos animais mais famosos do mundo.
+        </p>
+    </div>
+</div>
+
+<footer class="text-light mt-5 footer bg-dark">
+    <div class="container py-4">
+
+       <div class="row">
+    <div class="col-md-4 mb-3">
+        <h5>China</h5>
+        <p>
+            Este site foi desenvolvido para apresentar a riqueza da China, destacando sua história milenar,
+            cultura fascinante e avanços tecnológicos. Uma jornada entre tradição e modernidade que mostra
+            a importância desse país no cenário mundial.
+        </p>
+    </div>
+      
+            <div class="col-md-4 mb-3">
+                <h5>Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="index.html" class="text-warning text-decoration-none">Início</a></li>
+                    <li><a href="comida.html" class="text-warning text-decoration-none">Culinária</a></li>
+                    <li><a href="#" class="text-warning text-decoration-none">Cultura</a></li>
+                    <li><a href="#" class="text-warning text-decoration-none">Explore</a></li>
+                    <li><a href="#" class="text-warning text-decoration-none">Sobre</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <h5>Contato</h5>
+                <p>Email: joao.vieira71@fatec.sp.gov.br</p>
+                <p>Telefone: (19) 97133-5737</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center py-3 border-top border-light">
+        © 2026 - Todos os direitos reservados
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
