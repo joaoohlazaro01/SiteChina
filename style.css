@@ -1,0 +1,40 @@
+  .logo-flag {
+    height: 40px; /* tamanho da navbar */
+    width: auto; /* mantém proporção original */
+
+    object-fit: contain; /* garante que não corte a imagem */
+
+    border: 1.5px solid white; /*borda*/
+    border-radius: 6px; /*arredonda a borda da logo*/
+    padding: 2px; /* espaço interno pra não colar na borda */
+}
+
+.navbar-china {
+    background: linear-gradient(90deg, #c02e1b 0%, #dd0c0c 50%, #7c0f0f 100%);/* cor da navbar*/
+}
+
+
+/* botoes do nav */
+.navbar-china .nav-link {
+    color: #ffde00; /* amarelo da estrela */
+    font-weight: 500; /*espessura da fonte*/
+}
+
+/* botoes do nav passando por cima */
+.navbar-china .nav-link:hover {
+    color: #fff;
+}
+
+/* links */
+.navbar-china .nav-link.active {
+    color: #fff;
+    border-bottom: 2px solid #ffde00; /*linha embaixo dos links*/
+}
+
+/* borda do menu do nav */
+.navbar-china .navbar-toggler {
+    border-color: #a08716;
+}
+.footer{
+background: linear-gradient(90deg, #c02e1b 0%, #dd0c0c 50%, #7c0f0f 100%);
+}
