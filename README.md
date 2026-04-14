@@ -1,3 +1,4 @@
+
 Projeto Web
 
 Este projeto é um site desenvolvido com **HTML, CSS e Bootstrap**, com o objetivo de apresentar informações sobre a China de forma moderna, organizada e visualmente atrativa.
@@ -63,3 +64,7 @@ O site é composto por várias páginas:
 - Uso de imagens ilustrativas
 
 ---
+=======
+# SiteChina
+Sistema para descobrir mais sobre a cultura chinesa
+
