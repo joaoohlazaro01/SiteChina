@@ -63,8 +63,3 @@ O site é composto por várias páginas:
 - Organização por seções
 - Uso de imagens ilustrativas
 
----
-=======
-# SiteChina
-Sistema para descobrir mais sobre a cultura chinesa
-
